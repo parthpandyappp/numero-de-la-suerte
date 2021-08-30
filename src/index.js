@@ -31,4 +31,3 @@ function showOutput(isBirthDayLucky) {
 function cleanUp(date) {
   return date.replaceAll("-", "");
 }
-
