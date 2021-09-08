@@ -20,11 +20,11 @@ function showOutput(isBirthDayLucky) {
   if (isBirthDayLucky) {
     console.log("Not lucky!");
     display.innerHTML =
-      "<h2>" + lucky_number.value + "is not that much lucky for you." + "</h2>";
+      "<h1>Number " + lucky_number.value + " is not that much lucky for you." + "</h1>";
   } else {
     console.log("Lucky!");
     display.innerHTML =
-      "<h2>" + lucky_number.value + " is your Lucky number</h2>";
+      "<h1>Number " + lucky_number.value + " is your Lucky number</h1>";
   }
 }
 
