@@ -24,7 +24,7 @@ function showOutput(isBirthDayLucky) {
   } else {
     console.log("Lucky!");
     display.innerHTML =
-      "<h1>Number " + lucky_number.value + " is your Lucky number</h1>";
+      "<h1 class='shadow'>Number " + lucky_number.value + " is your Lucky number</h1>";
   }
 }
 
